@@ -1,14 +1,14 @@
 import org.example.IRPF;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class CadastroRendimentoTeste {
 
     private IRPF irpf;
 
-    @Before
+    @BeforeEach
     public void setUp(){
       irpf = new IRPF();
     }
