@@ -15,7 +15,9 @@ public class CadastroRendimentoTeste {
 
     @Test
     public void testCadastrarSalario(){
-        fail("Não implementado");
+        irpf.cadastrarSalario(5000f);
+        assertEquals(5000f, irpf.getTotalSalario(),0);
+        //fail("Não implementado");
     }
 
 }
