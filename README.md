@@ -1,7 +1,9 @@
 # Introdução
 
-Repositório gerado para upload dos arquivos de teste baseados na aula de TDD pelo professor André, em propósito da Disciplina de Testes de Software, ministrada pela professora Elaine Vensos. 
+Repositório gerado para upload dos arquivos de teste baseados na aula de TDD pelo professor André, em propósito da Disciplina de Testes de Software, ministrada pela professora Elaine Venson.
+
 Aluno responsável: Lucas Oliveira Meireles
+
 Turma: 02
 
 # Comentários
