@@ -17,6 +17,10 @@ public class IRPF {
 
 
     public void cadastrarPrevidenciaOficial(float contribuicaoPrevidenciaria) {
-        this.contribuicaoPrevidenciaria = contribuicaoPrevidenciaria
+        this.contribuicaoPrevidenciaria = contribuicaoPrevidenciaria;
+    }
+
+    public float getPrevidenciaOficial() {
+        return this.contribuicaoPrevidenciaria;
     }
 }
