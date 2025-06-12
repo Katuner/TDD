@@ -6,6 +6,7 @@ public class IRPF {
     private float contribuicaoPrevidenciaria;
     private String[] dependentes;
     private float pensao;
+    private float outraDeducao;
 
     public IRPF(){
         dependentes = new String[0];
@@ -51,5 +52,13 @@ public class IRPF {
 
     public float getPensao() {
         return this.pensao;
+    }
+
+    public void cadastrarutraDeducao(float outraDeducao) {
+        this.outraDeducao += outraDeducao;
+    }
+
+    public float getOutraDeducao() {
+        return this.outraDeducao;
     }
 }
