@@ -15,20 +15,20 @@ public class CadastrarOutrasDeducoes {
 
     @Test
     public void CadastrarOutraDeducao1(){
-        irpf.cadastrarutraDeducao(200f);
+        irpf.cadastrarOutraDeducao(200f);
         assertEquals(200f, irpf.getOutraDeducao(),0);
     }
 
     @Test
     public void CadastrarOutraDeducao2(){
-        irpf.cadastrarutraDeducao(500f);
+        irpf.cadastrarOutraDeducao(500f);
         assertEquals(500f, irpf.getOutraDeducao(),0);
     }
 
     @Test
     public void CadastrarOutraDeducao3(){
-        irpf.cadastrarutraDeducao(600f);
-        irpf.cadastrarutraDeducao(700f);
+        irpf.cadastrarOutraDeducao(600f);
+        irpf.cadastrarOutraDeducao(700f);
         assertEquals(600f + 700f, irpf.getOutraDeducao(),0);
     }
 }

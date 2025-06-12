@@ -54,11 +54,15 @@ public class IRPF {
         return this.pensao;
     }
 
-    public void cadastrarutraDeducao(float outraDeducao) {
+    public void cadastrarOutraDeducao(float outraDeducao) {
         this.outraDeducao += outraDeducao;
     }
 
     public float getOutraDeducao() {
         return this.outraDeducao;
+    }
+
+    public float getTotalDeducao() {
+        return getDeducaoDependentes() + getPensao() + getOutraDeducao() + getPrevidenciaOficial();
     }
 }
